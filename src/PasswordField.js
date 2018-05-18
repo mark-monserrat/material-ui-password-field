@@ -1,16 +1,16 @@
 /**
- * Notice: Some code was adapted from Material-UI's TextField component.
- *         Copyright (c) 2014 Call-Em-All (https://github.com/callemall/material-ui)
+ * Notice: Some code was adapted from material-ui/core's TextField component.
+ *         Copyright (c) 2014 Call-Em-All (https://github.com/callemall/material-ui/core)
  */
 import React from 'react'
 import PropTypes from 'prop-types'
-import TextField from 'material-ui/TextField'
-import IconButton from 'material-ui/IconButton'
-import Visibility from 'material-ui/svg-icons/action/visibility'
-import VisibilityOff from 'material-ui/svg-icons/action/visibility-off'
-import transitions from 'material-ui/styles/transitions'
-import {fade} from 'material-ui/utils/colorManipulator'
-import ToggleIcon from 'material-ui-toggle-icon'
+import TextField from 'material-ui/core/TextField'
+import IconButton from 'material-ui/core/IconButton'
+import Visibility from 'material-ui/core/svg-icons/action/visibility'
+import VisibilityOff from 'material-ui/core/svg-icons/action/visibility-off'
+import transitions from 'material-ui/core/styles/transitions'
+import {fade} from 'material-ui/core/utils/colorManipulator'
+import ToggleIcon from 'material-ui/core-toggle-icon'
 
 const getStyles = (props, context, state) => {
   const {
@@ -185,15 +185,15 @@ if (process.env.NODE_ENV !== 'production') {
      */
     style: PropTypes.object,
     /**
-     * Override the inline-styles of the [TextField](http://www.material-ui.com/v0.18.6/#/components/text-field) element.
+     * Override the inline-styles of the [TextField](http://www.material-ui/core.com/v0.18.6/#/components/text-field) element.
      */
     textFieldStyle: PropTypes.object,
     /**
-     * Override the inline-styles of the [IconButton](http://www.material-ui.com/v0.18.6/#/components/icon-button) element.
+     * Override the inline-styles of the [IconButton](http://www.material-ui/core.com/v0.18.6/#/components/icon-button) element.
      */
     visibilityButtonStyle: PropTypes.object,
     /**
-     * Override the inline-styles of the [SvgIcon](http://www.material-ui.com/v0.18.6/#/components/svg-icon) element used for the visibility icon.
+     * Override the inline-styles of the [SvgIcon](http://www.material-ui/core.com/v0.18.6/#/components/svg-icon) element used for the visibility icon.
      */
     visibilityIconStyle: PropTypes.object
   }

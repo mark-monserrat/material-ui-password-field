@@ -1,10 +1,10 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
-import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import getMuiTheme from 'material-ui/styles/getMuiTheme'
-import TextField from 'material-ui/TextField'
+import lightBaseTheme from 'material-ui/core/styles/baseThemes/lightBaseTheme'
+import MuiThemeProvider from 'material-ui/core/styles/MuiThemeProvider'
+import getMuiTheme from 'material-ui/core/styles/getMuiTheme'
+import TextField from 'material-ui/core/TextField'
 import PasswordField from '../src/PasswordField'
 
 function themed (children) {
